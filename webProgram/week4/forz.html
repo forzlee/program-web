@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM Exercise</title>
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>แบบฝึกหัด BOM</h1>
+    
+    <button onclick="alert(`${navigator.userAgent}\n${screen.width}x${screen.height}`)">แสดงข้อมูล</button>
+    <button onclick="location.reload()">รีเฟรช</button>
+    <button onclick="window.open('https://example.com')">เปิดหน้าต่างใหม่</button>
+
+    <script>
+        
+        const name = prompt("กรุณากรอกชื่อของคุณ");
+        if (name) document.write(`<h3>สวัสดีคุณ ${name}</h3>`);
+    </script>
+</body>
+</html>
