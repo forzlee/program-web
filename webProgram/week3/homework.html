@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTK - Login Internet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-[#e0f2fe] min-h-screen font-thai">
+    <header class="bg-white w-full py-4 flex justify-center shadow-sm border-b">
+        <img src="https://www.rmutk.ac.th/wp-content/uploads/2021/05/logo-rmutk.png" alt="UTK Logo" class="h-14">
+    </header>
+
+    <div class="container mx-auto mt-6 px-4 pb-12">
+        <div class="flex flex-col md:flex-row gap-6">
+
+            <div class="w-full md:w-1/4">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+                    <h2 class="font-ubuntu text-xl font-bold mb-6 text-gray-700 uppercase">LOGIN INTERNET</h2>
+                    <form>
+                        <div class="mb-4">
+                            <label class="block font-ubuntu text-xs font-semibold mb-1">Username</label>
+                            <input type="text" placeholder="กรุณากรอก user name"
+                                class="input input-bordered w-full bg-white border-gray-300 text-sm">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block font-ubuntu text-xs font-semibold mb-1">Password</label>
+                            <input type="password" placeholder="กรุณากรอก พาสเวิร์ด"
+                                class="input input-bordered w-full bg-white border-gray-300 text-sm">
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary w-full font-ubuntu text-white bg-[#3498db] border-none">Log
+                            In</button>
+                    </form>
+                    <p class="text-[11px] text-blue-600 text-center mt-6 cursor-pointer">หากต้องการเปลี่ยนรหัสผ่านคลิก
+                        ที่นี่</p>
+                </div>
+
+                <div class="mt-8 text-center">
+                    <p class="text-[11px] text-red-600 font-bold leading-relaxed">
+                        หากพบปัญหาลืมรหัสผ่าน !!<br>
+                        สามารถติดต่อขอรหัส Reset รหัสผ่าน โดยโทรมาที่เบอร์ภายใน <span class="text-black">0 2287
+                            7010</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="bg-white w-full md:w-3/4 p-8 rounded-lg shadow-sm border border-gray-100">
+                <h2 class="text-2xl font-bold mb-6 border-b pb-2 text-gray-800">ข่าวประกาศ</h2>
+
+                <h3 class="font-bold text-lg mb-4 text-gray-800">บทลงโทษสำหรับผู้กระทำผิด พรบ.
+                    ว่าด้วยการกระทำผิดเกี่ยวกับคอมพิวเตอร์ พ.ศ. 2550</h3>
+                <div class="overflow-x-auto border border-gray-200 rounded-lg">
+                    <table class="table table-sm w-full">
+                        <thead class="bg-gray-50 text-gray-700 uppercase text-[11px] border-b font-ubuntu">
+                            <tr>
+                                <th class="py-3 px-4">ฐานความผิด</th>
+                                <th class="py-3 px-4">โทษจำคุก</th>
+                                <th class="py-3 px-4">โทษปรับ</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-[11px] text-gray-600">
+                            <tr>
+                                <td class="border-b">มาตรา 5 การเข้าถึงระบบคอมพิวเตอร์โดยมิชอบ</td>
+                                <td class="border-b">ไม่เกิน 6 เดือน</td>
+                                <td class="border-b">ไม่เกิน 10,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 6 การเปิดเผยมาตรการป้องกันการเข้าถึงระบบคอมพิวเตอร์</td>
+                                <td class="border-b">ไม่เกิน 1 ปี</td>
+                                <td class="border-b">ไม่เกิน 20,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 7 การเข้าถึงข้อมูลคอมพิวเตอร์โดยมิชอบ</td>
+                                <td class="border-b">ไม่เกิน 2 ปี</td>
+                                <td class="border-b">ไม่เกิน 40,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 8 การดักรับข้อมูลคอมพิวเตอร์โดยมิชอบ</td>
+                                <td class="border-b">ไม่เกิน 3 ปี</td>
+                                <td class="border-b">ไม่เกิน 60,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 9 การทำให้เสียหาย ทำลาย แก้ไข เปลี่ยนแปลง ข้อมูล</td>
+                                <td class="border-b">ไม่เกิน 5 ปี</td>
+                                <td class="border-b">ไม่เกิน 100,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 10 การกระทำเพื่อให้ระบบคอมพิวเตอร์ไม่สามารถทำงานได้ปกติ</td>
+                                <td class="border-b">ไม่เกิน 5 ปี</td>
+                                <td class="border-b">ไม่เกิน 100,000 บาท</td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-b">มาตรา 11 การส่งข้อมูลคอมพิวเตอร์หรืออีเมลปกปิดแหล่งที่มา (Spam)
+                                </td>
+                                <td class="border-b">ไม่มี</td>
+                                <td class="border-b">ไม่เกิน 100,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 12 การจำหน่ายชุดคำสั่งเพื่อใช้เป็นเครื่องมือกระทำผิด</td>
+                                <td class="border-b">ไม่เกิน 1 ปี</td>
+                                <td class="border-b">ไม่เกิน 20,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 13 การกระทำที่ผิดต่อความมั่นคง (เผยแพร่/ส่งต่อ ข้อมูล)</td>
+                                <td class="border-b">3 ปี - 15 ปี / 10 ปี - 20 ปี</td>
+                                <td class="border-b">200,000 บาท และ 60,000 - 300,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 14 การนำเข้าระบบคอมพิวเตอร์ด้วยข้อมูลอันเป็นเท็จ (เผยแพร่
+                                    เนื้อหาไม่เหมาะสม)</td>
+                                <td class="border-b">ไม่เกิน 5 ปี</td>
+                                <td class="border-b">ไม่เกิน 100,000 บาท</td>
+                            </tr>
+                            <tr>
+                                <td class="border-b">มาตรา 15 ผู้ให้บริการจงใจสนับสนุนหรือยินยอมให้มีการกระทำผิด</td>
+                                <td class="border-b">ต้องระวางโทษเช่นเดียวกับผู้กระทำความผิด</td>
+                                <td class="border-b">ต้องระวางโทษเช่นเดียวกับผู้กระทำความผิด</td>
+                            </tr>
+                            <tr>
+                                <td>มาตรา 16 การตัดต่อภาพบุคคลอื่นให้เสียชื่อเสียง/ดูหมิ่น</td>
+                                <td>ไม่เกิน 3 ปี</td>
+                                <td>ไม่เกิน 60,000 บาท</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
